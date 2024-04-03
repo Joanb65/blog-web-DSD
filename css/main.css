@@ -67,7 +67,7 @@ nav .profile-link{
     justify-content: flex-end;
     margin-right: 50px;
 }
-
+/* Main anterior*/
 .home-main{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -104,3 +104,43 @@ nav .profile-link{
     font-size: 18px;
     line-height: 50px;
 }
+/*main anterior*/
+.blogs-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1;
+    background-image: url('../assets/img/main-news-img.png');
+    height: 250px;
+    width: 300px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.blogs-main section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2;
+    justify-items: left;
+    height: 10%;
+
+}
+
+.titulo{
+    color: #333;
+    text-align: center;
+    height: 10px;
+}
+
+.latin-text{
+    color: #333;
+    text-align: left;
+}
+
+
+.blogs-leermas-button{
+    color: #333;
+    text-align: center;
+}
+
+
+  
