@@ -1,0 +1,231 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.home-body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfad;
+}
+
+header .header-icons-container .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    justify-self: end;
+}
+header .icons span{
+    color: white;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img{
+    width: 230px;
+    margin-top: 10px;
+}
+
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+/*Estilo de la pagina*/
+/*Parte profile*/
+
+.blog-main{
+    height: 600px;
+}
+
+.blog-destacado-container{
+    height: 300px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.destacado-columna_izquierda-container{
+    justify-self: right;
+    height: 300px;
+}
+
+
+.destacado-columna_izquierda-container img{
+    max-height: 70%;
+    padding: 40px;
+}
+
+
+.destacado-columna_derecha-container{
+    justify-items: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 180px;
+    max-width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.destacado-columna_derecha-container h1{
+    font-size: 20px;
+    margin: 0;
+}
+
+.destacado-columna_derecha-container p{
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/*.destacado-columna_derecha-container a{
+    border: #48cfad;
+    border-style: solid;
+    border-width: thin;
+    height: 100%;
+    width: 30%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+}*/
+
+/* Parte de Posts*/
+
+.blog-posts-container .post-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50%;
+}
+
+.blog-posts-container .grid-container h3{
+    text-align: center;
+}
+
+.blog-posts-container .post-container p{
+    margin-bottom: 35px;
+}
+
+/* Parte contacto */
+.blog-contacto-container{
+    height: 300px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto-columna_izquierda-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 15fr;
+}
+
+.contacto-columna_derecha-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 15fr;
+}
+
+.contacto-columna_izquierda-container h1{
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 80px;
+
+}
+
+.contacto-columna_izquierda-container a{
+    height: 100px;
+}
+
+.contacto-columna_izquierda-container p{
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 300px;
+}
+
+.contacto-columna_izquierda-container img{
+    max-width: 50%;
+    grid-column: 1;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.contacto-columna_derecha-container h1{
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 80px;
+}
+
+.contacto-columna_derecha-container a{
+    height: 100px;
+}
+
+.contacto-columna_derecha-container p{
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 300px;
+}
+
+.contacto-columna_derecha-container img{
+    max-width: 50%;
+    grid-column: 1;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+
+/*footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-top: 35px solid #47cfad;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
+}*/
