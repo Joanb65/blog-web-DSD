@@ -139,7 +139,7 @@ nav .profile-link{
 
 
 .blog-posts-container .grid-container{
-   max-height: 100px;
+   max-height: 500px;
    display: grid;
    grid-template-rows: 1fr 2fr;
 
@@ -151,7 +151,7 @@ nav .profile-link{
     border-color: white;
     border-bottom: gainsboro;
     border-style: solid;
-    border-bottom-width: thick;
+    border-bottom-width: 2px;
     height: 100px;
 }
 
