@@ -106,7 +106,7 @@ nav .profile-link{
 
 .blog-posts-container {
    display: grid;
-   grid-template-rows: 1fr 3fr;
+   grid-template-rows: 1fr 5fr;
    align-items: center;
    margin: 3.5em;
    padding-left: 80px;
