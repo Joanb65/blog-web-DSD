@@ -69,50 +69,24 @@ nav .profile-link{
 }
 
 /*Estilo de la pagina*/
-/*Parte profile*/
+/*Parte Main_foto*/
 
 .blog-main{
-    height: 1000px;
+    height: 600px;
 }
 
 .blog-destacado-container{
-    height: 300px;
-    background-color: gainsboro;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+    background-image: url('../assets/img/main-news-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.destacado-columna_izquierda-container{
-    justify-self: right;
-    height: 300px;
+.destacado-main_foto-container img{
+    max-width: 100%;
 }
 
-
-.destacado-columna_izquierda-container img{
-    max-height: 70%;
-    padding: 40px;
-}
-
-
-.destacado-columna_derecha-container{
-    justify-items: left;
-    margin-top: 40px;
-    margin-left: 40px;
-    height: 180px;
-    max-width: 300px;
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-}
-
-.destacado-columna_derecha-container h1{
-    font-size: 20px;
-    margin: 0;
-}
-
-.destacado-columna_derecha-container p{
-    margin: 0;
-    font-size: 14px;
-}
 
 
 /*.destacado-columna_derecha-container a{
@@ -132,41 +106,41 @@ nav .profile-link{
 
 .blog-posts-container {
    display: grid;
-   grid-template-rows: 1fr 2fr;
+   grid-template-rows: 1fr 3fr;
    align-items: center;
-   margin: 2.5em;
+   margin: 3.5em;
+   padding-left: 80px;
 }
 
 
 .blog-posts-container .grid-container{
-   max-height: 500px;
-   display: grid;
-   grid-template-rows: 1fr 2fr;
-
+   max-height: 100%;
 }
 
 .blog-posts-container  h3{
-    text-align: center;
+    text-align: left;
     grid-row: 1;
     border-color: white;
     border-bottom: gainsboro;
     border-style: solid;
     border-bottom-width: 2px;
-    height: 100px;
+    height: 80px;
+    font-size: x-large;
 }
 
 .blog-posts-container .post-container{
-    display: inline-block;
-    padding-left: 10px;
-    max-width: 90%;
-    margin-bottom: 50%;
-    grid-row: 2;
-    
+    max-width: 100%;
 }
 
 .blog-posts-container .post-container p{
-    margin-bottom: 35px;
-    max-width: 100%;
+    max-width: 90%;
+    text-align: start;
+    white-space: pre-line;
+    font-size: large;
+}
+
+.blog-posts-container .post-container h1{
+    font-size: xx-large;
 }
 
 /* Parte contacto */
